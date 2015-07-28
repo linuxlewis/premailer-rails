@@ -9,6 +9,7 @@ class Premailer
       STRATEGIES = [
         CSSLoaders::CacheLoader,
         CSSLoaders::FileSystemLoader,
+        CSSLoaders::AssetPipelineLoader,
         CSSLoaders::NetworkLoader
       ]
 
